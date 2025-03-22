@@ -18,3 +18,9 @@ Instalação Inicial (Vite + React + Javascript)
 ```
 npm create vite@latest
 ```
+
+Instalação do react-router-dom
+
+```
+npm i react-router-dom
+```
