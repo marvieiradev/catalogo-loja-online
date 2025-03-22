@@ -37,3 +37,17 @@ Instalação do react-dialog e sheets para criação de um menu lateral
 ```
 npm install @radix-ui/react-dialog
 ```
+
+Instalação do lucide-react para os ícones
+
+```
+npm install lucide-react
+```
+
+Função utilitária para mesclar eficientemente classes CSS do Tailwind em JS sem conflitos de estilo
+
+```
+npm i tailwind-merge
+npm i class-variance-authority
+npm i clsx
+```
