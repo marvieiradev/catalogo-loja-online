@@ -31,3 +31,9 @@ Instalação do TailwindCSS
 npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init -p
 ```
+
+Instalação do react-dialog e sheets para criação de um menu lateral
+
+```
+npm install @radix-ui/react-dialog
+```
