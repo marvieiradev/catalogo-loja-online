@@ -89,10 +89,10 @@ const Catalogo = () => {
                     <div className="flex mt-4 px-4 w-full justify-center">
                         <div className="flex gap-2 overflow-x-scroll [&::-webkit-scrollbar]:hidden">
                             <div onClick={handleReset}><Categoria title="Tudo" color={!cat ? "bg-primary" : ""} /></div>
-                            <div onClick={() => handleCategory("Animes")}><Categoria title="Animes" color={cat == "Animes" ? "bg-primary" : ""} /></div>
-                            <div onClick={() => handleCategory("Games")}><Categoria title="Games" color={cat == "Games" ? "bg-primary" : ""} /></div>
-                            <div onClick={() => handleCategory("Filmes/Séries")}><Categoria title="Filmes/Séries" color={cat == "Filmes/Séries" ? "bg-primary" : ""} /></div>
-                            <div onClick={() => handleCategory("Humor")}><Categoria title="Humor" color={cat == "Humor" ? "bg-primary" : ""} /></div>
+                            <div onClick={() => handleCategory("Junino")}><Categoria title="Junino" color={cat == "Junino" ? "bg-primary" : ""} /></div>
+                            <div onClick={() => handleCategory("Carnaval")}><Categoria title="Carnaval" color={cat == "Carnaval" ? "bg-primary" : ""} /></div>
+                            <div onClick={() => handleCategory("Religiosos")}><Categoria title="Religiosos" color={cat == "Religiosos" ? "bg-primary" : ""} /></div>
+                            <div onClick={() => handleCategory("Esportes")}><Categoria title="Esportes" color={cat == "Esportes" ? "bg-primary" : ""} /></div>
                             <div onClick={() => handleCategory("Diversas")}><Categoria title="Diversas" color={cat == "Diversas" ? "bg-primary" : ""} /></div>
                         </div>
                     </div>

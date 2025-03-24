@@ -1,5 +1,5 @@
 const util = {
-  baseUrl: "https://1upstore.s3.amazonaws.com/",
+  baseUrl: "/",
   siteUrl: "%20https://www.1upstore.com.br/produto/",
   instagram: "",
   telNumber: "https://wa.me/5585986099213",

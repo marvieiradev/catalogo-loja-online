@@ -1,18 +1,18 @@
 const categorias = [
   {
-    nome: "Animes",
+    nome: "Junino",
   },
 
   {
-    nome: "Games",
+    nome: "Carnaval",
   },
 
   {
-    nome: "Filmes/Séries",
+    nome: "Religiosas",
   },
 
   {
-    nome: "Humor",
+    nome: "Esporte",
   },
 
   {
