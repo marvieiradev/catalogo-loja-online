@@ -4,7 +4,7 @@ const ButtonWhatsapp = (props) => {
         <a
             href={`${util.msgPedido}${props.nome}${util.siteUrl}${props.produto}`}
             target="_blank"
-            className="items-center justify-center gap-3 rounded-full w-full flex border-[2px] border-whatsapp bg-white px-4 py-3 text-sm font-semibold uppercase text-whatsapp"
+            className="items-center justify-center gap-3 rounded-full w-full flex border-[2px] border-whatsapp bg-white px-4 py-3 text-sm font-semibold uppercase text-whatsapp hover:bg-whatsapp/20"
         >
             <svg
                 data-v-f43f2976=""

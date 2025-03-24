@@ -4,7 +4,7 @@ const ButtonWhatsappVar = (props) => {
         <a
             href={util.msgPersonalizada}
             target="_blank"
-            className="items-center justify-center gap-3 rounded-full w-full flex border-[2px] border-white bg-whatsapp px-4 py-3 text-xs md:text-sm font-semibold uppercase text-white"
+            className="items-center justify-center gap-3 rounded-full w-full flex border-[2px] border-white bg-whatsapp px-4 py-3 text-xs md:text-sm font-semibold uppercase text-white hover:bg-whatsapp/80"
         >
             <svg
                 data-v-f43f2976=""
