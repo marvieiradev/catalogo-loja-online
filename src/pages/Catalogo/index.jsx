@@ -70,16 +70,15 @@ const Catalogo = () => {
                         <form>
                             <div className="relative justify-center">
                                 <input
-                                    className="w-full focus:outline-none borde-1 border-cyan py-2 pl-10 pr-2 rounded-full text-gray-400 text-base font-medium bg-white placeholder:text-gray-300"
+                                    className="w-full focus:outline-none border-2 border-gray-400 py-2 pl-10 pr-2 rounded-full text-gray-500 text-base font-medium bg-white placeholder:text-gray-300"
                                     placeholder="Pesquisar"
                                     type="search"
                                     onChange={handleInputChange}
                                 />
                                 <div className="absolute left-2 flex items-center justify-center top-2">
                                     <div className="absolute left-0 top-0">
-
                                         <div className="flex align-middle justify-center">
-                                            <Search className="text-cyan" size={24} />
+                                            <Search className="text-purple" size={24} />
                                         </div>
                                     </div>
                                 </div>
@@ -98,10 +97,6 @@ const Catalogo = () => {
                         </div>
                     </div>
 
-                    <div className="flex mt-4 px-4 w-full max-w-[1280px] justify-center">
-                        {showCategory !== null && (<p className="text-dark font-semibold lg:text-lg">{`Categoria: ${showCategory}`}</p>)}
-                    </div>
-
                     <div className="mt-4 m-auto max-w-[1280px] w-full items-center place-items-center">
                         <SearchResults dados={dados} />
                         {(!dados || !dados.length) && (
@@ -112,7 +107,7 @@ const Catalogo = () => {
                         <PersonalizedArt />
                     </div>
                 </div>
-                <div className="mt-4 m-auto max-w-[1280px] w-full items-center">
+                <div className="mt-4 m-auto w-full items-center">
                     <Footer />
                 </div>
             </div>

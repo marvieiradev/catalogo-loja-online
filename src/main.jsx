@@ -5,7 +5,7 @@ import { Router } from './pages'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className='flex flex-col h-full items-center bg-slate-200'>
+    <div className='flex flex-col h-full items-center bg-bgprimary'>
       <Router />
     </div>
   </StrictMode>,

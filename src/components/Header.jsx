@@ -16,29 +16,29 @@ const Header = ({ visivel }) => {
 
     return (
         <>
-            <div className="sticky top-0 z-50 border-b border-solid border-slate-300 w-full p-3 bg-white rounded-b-xl max-w-[1280px]">
+            <div className="sticky top-0 z-50 border-solid w-full p-3 bg-black rounded-b-xl md:rounded-none flex justify-center md:px-4">
                 <div className="flex flex-row justify-between w-full px-4 md:hidden">
                     <div className={`cursor-pointer ${visivel}`} onClick={handleNavigate}>
                         <ArrowLeft />
                     </div>
                     <div className="w-[50px] justify-center" onClick={deleteStorage}>
-                        <a href="/catalogo">
+                        <a href="/">
                             <img src="/logo.svg" alt="" />
                         </a>
                     </div>
                     <SidebarMenu />
                 </div>
 
-                <div className="justify-between w-full px-4 hidden md:flex md:flex-row">
+                <div className="justify-between w-full px-4 hidden md:flex md:flex-row max-w-[1280px]">
                     <div className="w-[50px] justify-center" onClick={deleteStorage}>
-                        <a href="/catalogo">
+                        <a href="/">
                             <img src="/logo.svg" alt="" />
                         </a>
                     </div>
                     <div className="flex gap-2">
                         <a
-                            href="/catalogo"
-                            className="bg-slate-100 hover:bg-primary/10 px-2 py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-primary items-center"
+                            href="/"
+                            className="bg-gray-900 hover:bg-dark px-2 py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-white items-center"
                             onClick={deleteStorage}
                         >
                             <House size={18} />
@@ -47,15 +47,15 @@ const Header = ({ visivel }) => {
 
                         <a
                             href="/guia-de-medidas"
-                            className="bg-slate-100 hover:bg-primary/10 px-2 py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-primary items-center"
+                            className="bg-gray-900 hover:bg-dark px-2 py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-white items-center"
                         >
                             <Shirt size={18} />
                             Guia de Medidas
                         </a>
 
                         <a
-                            href={util.instagram} target="_blank"
-                            className="bg-slate-100 hover:bg-primary/10 px-2  py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-primary items-center"
+                            href={""/*util.instagram*/} target="_blank"
+                            className="bg-gray-900 hover:bg-dark px-2  py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-white items-center"
 
                         >
                             <Instagram size={18} />
@@ -63,8 +63,8 @@ const Header = ({ visivel }) => {
                         </a>
 
                         <a
-                            href={util.telNumber} target="_blank"
-                            className="bg-slate-100 hover:bg-primary/10 px-2  py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-primary items-center"
+                            href={""/*util.telNumber*/} target="_blank"
+                            className="bg-gray-900 hover:bg-dark px-2  py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-white items-center"
                         >
                             <MessageCircle size={18} />
                             Contato
