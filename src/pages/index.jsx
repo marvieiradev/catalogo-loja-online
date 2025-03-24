@@ -5,7 +5,7 @@ import {
 
 //import { Home } from "./Home";
 import Catalogo from "./Catalogo";
-//import Produto from "./Produto";
+import Produto from "./Produto";
 //import GuiaMedidas from "./GuiaMedidas";
 
 const router = createBrowserRouter([
@@ -13,6 +13,12 @@ const router = createBrowserRouter([
         path: "/",
         element: <Catalogo />,
     },
+
+    {
+        path: "/produto/:id",
+        element: <Produto />,
+    },
+
 
     /*{
         path: "/catalogo",

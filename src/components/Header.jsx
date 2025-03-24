@@ -19,7 +19,7 @@ const Header = ({ visivel }) => {
             <div className="sticky top-0 z-50 border-solid w-full p-3 bg-black rounded-b-xl md:rounded-none flex justify-center md:px-4">
                 <div className="flex flex-row justify-between w-full px-4 md:hidden">
                     <div className={`cursor-pointer ${visivel}`} onClick={handleNavigate}>
-                        <ArrowLeft />
+                        <ArrowLeft className="text-white" />
                     </div>
                     <div className="w-[50px] justify-center" onClick={deleteStorage}>
                         <a href="/">
@@ -46,7 +46,7 @@ const Header = ({ visivel }) => {
                         </a>
 
                         <a
-                            href="/guia-de-medidas"
+                            href="/"
                             className="bg-gray-900 hover:bg-dark px-2 py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-white items-center"
                         >
                             <Shirt size={18} />
@@ -54,7 +54,7 @@ const Header = ({ visivel }) => {
                         </a>
 
                         <a
-                            href={""/*util.instagram*/} target="_blank"
+                            href={""/*util.instagram*/} //target="_blank"
                             className="bg-gray-900 hover:bg-dark px-2  py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-white items-center"
 
                         >
@@ -63,7 +63,7 @@ const Header = ({ visivel }) => {
                         </a>
 
                         <a
-                            href={""/*util.telNumber*/} target="_blank"
+                            href={""/*util.telNumber*/} //target="_blank"
                             className="bg-gray-900 hover:bg-dark px-2  py-1 font-semibold rounded-xl flex gap-2  text-sm hover:scale-[103%] text-white items-center"
                         >
                             <MessageCircle size={18} />
