@@ -24,7 +24,7 @@ const SidebarMenu = () => {
                 </SheetHeader>
                 <div className="flex flex-col w-full space-y-3 mt-4">
                     <SheetClose asChild>
-                        <a href="/catalogo"
+                        <a href="/"
                             className="flex items-center gap-2 bg-gray-900 text-white text-center p-2 font-semibold rounded-xl w-full text-sm hover:scale-[103%]"
                             onClick={deleteStorage}
                         >
@@ -35,7 +35,7 @@ const SidebarMenu = () => {
 
                     <SheetClose asChild>
                         <a
-                            href="/guia-de-medidas"
+                            href="/"
                             className="flex items-center gap-2 bg-gray-900 text-white text-center p-2 font-semibold rounded-xl w-full text-sm hover:scale-[103%]"
                         >
                             <Shirt size={24} />
@@ -45,7 +45,7 @@ const SidebarMenu = () => {
 
                     <SheetClose asChild>
                         <a
-                            href={util.instagram} target="_blank"
+                            href={"/"/*util.instagram*/} //target="_blank"
                             className="flex items-center gap-2 bg-gray-900 text-white text-center p-2 font-semibold rounded-xl w-full text-sm hover:scale-[103%]"
                         >
                             <Instagram size={24} />
@@ -55,7 +55,7 @@ const SidebarMenu = () => {
 
                     <SheetClose asChild>
                         <a
-                            href={util.telNumber} target="_blank"
+                            href={"/"/*util.telNumber*/} //target="_blank"
                             className="flex items-center gap-2 bg-gray-900 text-white text-center p-2 font-semibold rounded-xl w-full text-sm hover:scale-[103%]"
                         >
                             <MessageCircle size={24} />
