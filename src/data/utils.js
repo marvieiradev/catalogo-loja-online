@@ -1,6 +1,6 @@
 const util = {
   baseUrl: "/img/",
-  siteUrl: "%20https://www.1upstore.com.br/produto/",
+  siteUrl: "%20https://catalogo-loja-online.vercel.app/produto/",
   instagram: "",
   telNumber: "https://wa.me/5585986099213",
   msgPedido:

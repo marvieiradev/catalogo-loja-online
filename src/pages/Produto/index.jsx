@@ -23,7 +23,7 @@ const Produto = () => {
                             <div className="flex flex-col lg:flex-row lg:gap-20 items-center justify-center">
                                 <div>
                                     <div className="product-images relative overflow-hidden rounded-2xl md:w-[452px]">
-                                        <div className="no-scrollbar flex aspect-square w-full snap-x snap-mandatory overflow-x-scroll rounded-lg bg-white shadow-sm md:h-[452px] md:w-[452px]">
+                                        <div className="no-scrollbar flex aspect-square w-full snap-x snap-mandatory overflow-x-scroll rounded-lg bg-purple/20 shadow-sm md:h-[452px] md:w-[452px]">
                                             <div className="product-picture flex h-auto w-full flex-shrink-0 snap-center items-center justify-center p-4">
                                                 <img
                                                     className="h-full w-auto rounded-lg"
